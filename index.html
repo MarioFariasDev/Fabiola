@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ficha de Treino - Cliente</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🔥 Treino da Semana</h1>
+        <p>Objetivo: <strong>Personalizado</strong></p>
+    </header>
+
+    <main id="treinoContainer">
+        <!-- Treinos aparecem aqui via script.js -->
+    </main>
+
+    <section class="instrucoes">
+        <h2>📌 Instruções da Semana</h2>
+        <ul>
+            <li>Alongar todos os dias</li>
+            <li>Respeitar o tempo de descanso</li>
+            <li>Hidratação e alimentação adequadas</li>
+            <li>Relatar dores ou desconfortos</li>
+        </ul>
+    </section>
+
+    <section class="feedback">
+        <h2>🧠 Feedback da Semana</h2>
+        <label for="feedback"></label><textarea id="feedback" rows="4" placeholder="Descreva como foram os treinos..."></textarea>
+        <button id="salvarFeedback">💾 Salvar Feedback</button>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
