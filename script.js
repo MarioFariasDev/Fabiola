@@ -1,77 +1,72 @@
 const treinos = [
-  // DIA 1
-  {
-    dia: "DIA 1 – Inferiores + Glúteo com Bi-set e Pausa Ativa",
-    tecnica: "Bi-set e Pausa Ativa",
-    objetivo: "Mais volume e ativação de glúteos",
-    exercicios: [
-      ["Agachamento búlgaro", "3", "12 por perna", "Bi-set", "Usar cadeira e halteres"],
-      ["Ponte unilateral", "3", "15 por perna", "Bi-set", "Queima glúteo isolado"],
-      ["Stiff com halteres", "4", "12", "Normal", "Alongar bem, foco posterior"],
-      ["Abdução + isometria final", "3", "20 + 20s", "Drop-set", "Elástico nos joelhos"],
-      ["Agachamento com salto", "3", "15", "Explosivo", "Finaliza com cardio neural"]
-    ]
-  },
-
-  // DIA 2
-  {
-    dia: "DIA 2 – Superiores com foco em Resistência Muscular",
-    tecnica: "Resistência Muscular",
-    objetivo: "Melhorar resistência e postura",
-    exercicios: [
-      ["Flexão de braço", "4", "12", "Normal", "Pode usar apoio de joelhos"],
-      ["Remada curvada com halteres", "4", "12", "Bi-set", "Alterna com desenvolvimento"],
-      ["Desenvolvimento de ombro", "4", "15", "Bi-set", "Fortalece ombros/postura"],
-      ["Tríceps banco", "4", "15", "-", "Fortalece braços"],
-      ["Rosca direta com elástico", "3", "15", "-", "Bíceps ativo"]
-    ]
-  },
-
-  // DIA 3
-  {
-    dia: "DIA 3 – CORE EXTREMO + HIIT CARDIO",
-    tecnica: "Circuito dividido",
-    objetivo: "Foco em fortalecimento abdominal e queima rápida",
-    exercicios: [
-      ["Circuito 1 – Prancha com elevação alternada de perna", "3", "30s", "Circuito", "-"],
-      ["Circuito 1 – Abdominal infra com isometria", "3", "12 reps + 10s", "Circuito", "-"],
-      ["Circuito 1 – Bicicleta no ar", "3", "30 reps", "Circuito", "-"],
-      ["Circuito 1 – Elevação de perna + tesoura", "3", "20 reps", "Circuito", "-"],
-      ["Circuito 2 – Jumping jack", "3", "30s", "Circuito", "-"],
-      ["Circuito 2 – Agachamento com salto", "3", "15 reps", "Circuito", "-"],
-      ["Circuito 2 – Burpee adaptado", "3", "10 reps", "Circuito", "-"],
-      ["Circuito 2 – Abdominal remador", "3", "20 reps", "Circuito", "-"],
-      ["Descanso entre rounds", "-", "45s", "-", "-"]
-    ]
-  },
-
-  // DIA 4
-  {
-    dia: "DIA 4 – Inferiores com Ênfase em Glúteo + Isometria",
-    tecnica: "Bi-set + Isometria",
-    objetivo: "Potencializar glúteo e manter intensidade",
-    exercicios: [
-      ["Elevação pélvica com carga", "4", "20", "Isometria final 10s", "Sentir o glúteo queimar"],
-      ["Afundo alternado com halteres", "4", "12 por perna", "Bi-set", "Alternar com agachamento"],
-      ["Agachamento sumô + abdução", "3", "15 + 15", "Bi-set", "Com elástico"],
-      ["Stiff unilateral (sem apoio)", "3", "10 por perna", "Equilíbrio", "Posterior e core ativos"],
-      ["Ponte com 3 tempos (subida lenta)", "2", "12", "Cadência", "Controle máximo"]
-    ]
-  },
-
-  // DIA 5
-  {
-    dia: "DIA 5 – Full Body em Circuito + Mobilidade",
-    tecnica: "Circuito funcional",
-    objetivo: "Encerrar com intensidade e recuperação ativa",
-    exercicios: [
-      ["Polichinelo", "4", "30s", "Circuito", "-"],
-      ["Agachamento com halteres", "4", "15 reps", "Circuito", "-"],
-      ["Flexão com ombros alternados", "4", "12 reps", "Circuito", "-"],
-      ["Mountain climber", "4", "30s", "Circuito", "-"],
-      ["Abdominal prancha dinâmica", "4", "30s", "Circuito", "-"]
-    ]
-  }
+    {
+        dia: "DIA 1 – Posterior + Glúteo (Tempo + Bi-set)",
+        tecnica: "Tempo controlado + Bi-set reverso",
+        objetivo: "Ativação profunda de glúteos e posteriores",
+        exercicios: [
+            ["Stiff com halteres", "4", "12", "3s descida / 1s subida", "Foco na postura e alongamento posterior"],
+            ["Elevação pélvica com peso", "4", "15 + 10s isometria", "Bi-set", "Sobe com força e trava no topo"],
+            ["Agachamento sumô com elástico", "3", "20", "Bi-set reverso", "Logo após a elevação pélvica"],
+            ["Cadeira na parede (isometria)", "3", "1min", "-", "Segurar com peso se possível"],
+            ["Abdução deitada com elástico", "3", "20 + 20s isometria", "Pump final", "Sentir queimar o glúteo médio"]
+        ],
+        cardio: "Caminhada ou escada leve 10min"
+    },
+    {
+        dia: "DIA 2 – Core + Mobilidade Ativa",
+        tecnica: "Circuito com pausa ativa",
+        objetivo: "Fortalecer o core e melhorar mobilidade",
+        exercicios: [
+            ["Prancha com elevação de perna", "3", "30s", "Core", "Manter quadril estável"],
+            ["Abdominal infra com elástico", "3", "15", "-", "Controle total"],
+            ["Prancha lateral com apoio", "3", "30s por lado", "-", "Ativar oblíquos"],
+            ["Abdominal V-sit lento", "3", "15", "-", "Contrair no centro"],
+            ["Mobilidade: Gato-vaca / quadril / torácica", "1", "10min", "-", "Movimentos controlados"]
+        ],
+        cardio: "Incluso nos exercícios"
+    },
+    {
+        dia: "DIA 3 – Full Body Metabólico (Circuitão)",
+        tecnica: "Circuito A/B com descanso curto",
+        objetivo: "Gasto calórico + resistência muscular",
+        exercicios: [
+            ["Flexão com toques no ombro", "3", "12", "Circuito A", "Foco no core"],
+            ["Agachamento + elevação lateral", "3", "15", "Circuito A", "Halter ou mochila"],
+            ["Afundo alternado", "3", "10 por perna", "Circuito A", "Passos largos"],
+            ["Prancha dinâmica", "3", "30s", "Circuito A", "Ritmo firme"],
+            ["Burpee adaptado", "2", "12", "Circuito B", "Sem salto se necessário"],
+            ["Abdominal cruzado", "2", "20", "Circuito B", "-"],
+            ["Stiff com mochila", "2", "12", "Circuito B", "Foco no posterior"],
+            ["Polichinelo", "2", "30s", "Circuito B", "Finalização"]
+        ],
+        cardio: "Incluso nos circuitos"
+    },
+    {
+        dia: "DIA 4 – Superiores + Core Estático",
+        tecnica: "Bi-set + isometria",
+        objetivo: "Fortalecer parte superior e abdômen",
+        exercicios: [
+            ["Flexão com tempo (3s descida)", "3", "10", "-", "Controle total"],
+            ["Remada unilateral", "3", "12 por lado", "-", "Postura e puxada firme"],
+            ["Desenvolvimento alternado (ombros)", "3", "15", "-", "Garrafas ou halteres"],
+            ["Tríceps banco + prancha 30s", "3", "15 + 30s", "Bi-set", "Sem pressa"],
+            ["Rosca direta + prancha lateral", "3", "15 + 30s por lado", "Bi-set", "Foco no bíceps e core"]
+        ],
+        cardio: "Caminhada leve ou subir escadas 10min"
+    },
+    {
+        dia: "DIA 5 – Glúteo Foco + HIIT Finalizador",
+        tecnica: "Isolamento + HIIT",
+        objetivo: "Esfolar o glúteo e finalizar com explosão",
+        exercicios: [
+            ["Ponte unilateral", "4", "12 por perna", "Isolado", "Subida explosiva e segura"],
+            ["Abdução deitada com peso", "3", "20", "Pump", "Peso no quadril ou elástico forte"],
+            ["Cadeira + abdução simultânea", "3", "15", "Bi-set", "Desafio total de glúteo"],
+            ["Skater jump (salto lateral)", "3", "30s", "HIIT", "Controle e equilíbrio"],
+            ["Mountain climber + prancha", "3", "30s cada", "HIIT", "Respiração consciente"]
+        ],
+        cardio: "Incluso no finalizador"
+    }
 ];
 
 
